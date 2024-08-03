@@ -1,12 +1,49 @@
 html, body{
+    width: 100vw;
     height : 100%;
     margin: 1%;
+    border: 10px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 body{
     display: grid;
+    /*background-image: url("background.jpeg");*/
 }
+
+h1{
+    background-image: linear-gradient(to right,blue, white);
+}
+
 
 .info{
     text-align: center;
+}
+
+.outer_layer{
+    width: 100%;
+    background-color: dimgrey;
+    margin: 20px;
+    padding:20px;
+}
+
+.left_side {
+    width: 50%;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+.right_side {
+    width:50%;
+    height:100%; 
+    float:right;
+    display: grid;
+}
+
+.right_side img{
+    width: 100%;
+    height: auto;
 }
