@@ -1,3 +1,4 @@
+/* -------html body.--------- */
 html, body{
     width: 100vw;
     height : 100%;
@@ -9,10 +10,6 @@ body{
     display: grid;
 }
 
-.info{
-    text-align: center;
-}
-
 .outer_layer{
     width: 100%;
     height: 100%;
@@ -22,35 +19,10 @@ body{
     
 }
 
-.left_side {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    float: left;
-    /*background-color: rgb(255,252,248); */
-    background-color: blue;
-}
-
 .row{
     display: flex;
     align-items: left;
     justify-content: left;
-
-}
-
-.top_row{
-    height: 10vh;
-    background-color: aqua;
-}
-
-.mid_row{
-    height: 80vh;
-    background-color: bisque;
-}
-
-.bottom_row{
-    height: 10vh;
-    background-color: yellow;
 }
 
 .right_side {

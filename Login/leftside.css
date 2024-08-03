@@ -1,0 +1,55 @@
+
+/* -------- left side main style -------- */
+.left_side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background-color: rgb(255,252,248); 
+}
+
+/* -------- Division -------- */
+.top_row{
+    height: 10vh;
+}
+
+.mid_row{
+    height: 80vh;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+
+.bottom_row{
+    height: 10vh;
+}
+
+/* -------- middle row content -------- */
+.info{
+    position: absolute;
+    top: 30%;
+}
+
+/* ------------ Static data  ----------- */
+.initial_statement{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.initial_statement h1{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    background-color: aquamarine;
+}
+
+.initial_statement p{
+    color: grey;
+    background-color: black;
+    margin:0px;
+    padding: 0px;
+}
+
+/* -------- login data -------- */
+.login_column{
+    text-align: left;
+}
